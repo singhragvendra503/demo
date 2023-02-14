@@ -1,0 +1,11 @@
+#!/bin/bash
+myvar="The polar desert of Ellesmere Island’s northeast corner knows only two colors: frozen winter white and the dull brown of a short summer. There, at the world’s northernmost wildlife research station, run out of the Canadian Forces Station Alert military base, scientists embarked on an unprecedented project. It began with an adorably fluffy, brilliantly white Arctic hare."
+touch led.txt
+./while.sh
+ls
+echo "$myvar" >>led.txt
+./while.sh
+cat led.txt
+
+
+

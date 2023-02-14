@@ -1,0 +1,11 @@
+chicmic@chicmic-Macmini:~/BashScript$ ./test1.sh 
+./test1.sh: line 27: unexpected EOF while looking for matching `''
+error: unexpected end of file
+chicmic@chicmic-Macmini:~/BashScript$ ./test1.sh 
+That is Sohan\s car
+That is Sohan's car
+chicmic@chicmic-Macmini:~/BashScript$ ./test1.sh 
+./test1.sh: line 28: unexpected EOF while looking for matching `"'
+./test1.sh: line 29: syntax error: unexpected end of file
+chicmic@chicmic-Macmini:~/BashScript$ touch error.log
+chicmic@chicmic-Macmini:~/BashScript$ open error.log
