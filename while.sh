@@ -1,6 +1,6 @@
 
 #!/bin/bash
-
+# For hours
 echo "Please, enter number of hours: "
 read hour
 echo "Please, enter number of minuts: "
